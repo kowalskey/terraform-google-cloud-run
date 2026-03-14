@@ -357,3 +357,8 @@ variable "execution_environment" {
   }
 }
 
+variable "invoker_iam_disabled" {
+  type        = bool
+  description = "whether to disable invoker IAM checks"
+  default     = false
+}
